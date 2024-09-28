@@ -58,6 +58,38 @@ The following folder contains all python files used. The ```data_analysis``` fol
 
 All results from the various test runs are saved in this folder. In the subfolder ```presentation```, there are presentations that were held during the course and describe the competition in more detail. The ```results_runs``` subfolder contains the results from the tests. The ```.tsv files``` for Subtask 1 and Subtask 2 are always specified here (as well as the zip file required for [codabench](https://www.codabench.org/competitions/2745/)).
 Also the results for subtask 1 and 2 (```scores_{Subtask}.json```). The metrics Accuracy, Precision, Recall and Micro-F1 score can be found in the ```{method}_metrics.txt```. The word clouds and the images of the work (distribution labels and prompt pipeline) can be found in the ```visuals``` subfolder.
+### Results for Subtask 1:
+| Method                         | Score | Multi-Maj F1 | Bin-Maj F1 | BinOne F1 | BinAll F1 | Dis. Bin F1 |
+|---------------------------------|-------|--------------|------------|-----------|-----------|-------------|
+| Zero Shot Mixtral 8x22B         | 0.538 | 0.226        | 0.646      | 0.635     | 0.631     | 0.554       |
+| 10 Shot Mixtral 8x7B            | 0.620 | **0.390**    | 0.750      | 0.707     | 0.694     | 0.557       |
+| **10 Shot Mixtral 8x22B**       | **0.637** | 0.316    | **0.783**  | **0.771** | **0.729** | **0.590**   |
+| 5 Shot + GS Mixtral 8x7B*       | 0.608 | 0.415        | 0.722      | 0.703     | 0.667     | 0.534       |
+| 5 Shot Mixtral 8x7B*            | 0.623 | 0.387        | 0.748      | 0.718     | 0.704     | 0.558       |
+| 5 Shot GPT-4o mini*             | 0.511 | 0.345        | 0.609      | 0.657     | 0.492     | 0.453       |
+| 10 Shot GPT-4o mini*            | 0.539 | 0.485        | 0.643      | 0.684     | 0.536     | 0.580       |
+| 5 Shot + GS GPT-4o mini*        | 0.481 | 0.323        | 0.576      | 0.618     | 0.461     | 0.566       |
+| 5 Shot GPT-3.5 turbo*           | 0.514 | 0.340        | 0.608      | 0.607     | 0.541     | 0.472       |
+
+*Results of Subtask 1 (own approaches). The best result is bold. Methods with an asterisk * were not submitted in the official competition. GS = Guidelines Summary.*
+
+
+### Results for Subtask 2:
+
+| Method                         | Score | JS Dist Multi | JS Dist Bin |
+|---------------------------------|-------|---------------|-------------|
+| Zero Shot Mixtral 8x22B         | 0.412 | 0.491         | 0.334       |
+| 10 Shot Mixtral 8x7B            | 0.349 | 0.423         | 0.274       |
+| **10 Shot Mixtral 8x22B**       | **0.302** | **0.385**   | **0.218**   |
+| 5 Shot + GS Mixtral 8x7B*       | 0.362 | 0.429         | 0.296       |
+| 5 Shot Mixtral 8x7B*            | 0.325 | 0.394         | 0.256       |
+| 5 Shot GPT-4o mini*             | 0.507 | 0.591         | 0.422       |
+| 10 Shot GPT-4o mini*            | 0.467 | 0.547         | 0.388       |
+| 5 Shot + GS GPT-4o mini*        | 0.543 | 0.630         | 0.456       |
+| 5 Shot GPT-3.5 turbo*           | 0.505 | 0.585         | 0.425       |
+
+*Results of Subtask 2 (own approaches). The best result is bold. Methods with an asterisk * were not submitted in the official competition. GS = Guidelines Summary.*
+
 ## Source
 
 [1] Krenn, B., Petrak, J., Kubina, M., & Burger, C. (2024). GERMS-AT: A Sexism/Misogyny Dataset of Forum Comments from an Austrian Online Newspaper. In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 7728–7739).
