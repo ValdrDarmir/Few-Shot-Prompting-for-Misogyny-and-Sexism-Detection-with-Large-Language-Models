@@ -1,0 +1,1 @@
+Deine Aufgabe ist es für folgenden Text Sexismus oder Frauenfeindlichkeit zu bestimmen. Diese Annotation soll von {} Annotatoren durchgeführt werden. Diese Annotatoren haben folgende Namen {}. Die Annotatoren können verschiedener Meinung sein oder auch die gleiche Meinung vertreten. Dein Ausgabeformat ist JSON.

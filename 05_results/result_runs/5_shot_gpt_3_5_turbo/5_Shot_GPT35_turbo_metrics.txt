@@ -1,0 +1,8 @@
+Precision: 0.39777339672967643 
+Recall: 0.35976505139500736 
+F1-Score: 0.37781571845569195 
+Accuracy: 0.23290554763359816
+False Negative: 6104 
+True Positive 3430 
+False Positive 5193 
+Amount Predictions: 1986

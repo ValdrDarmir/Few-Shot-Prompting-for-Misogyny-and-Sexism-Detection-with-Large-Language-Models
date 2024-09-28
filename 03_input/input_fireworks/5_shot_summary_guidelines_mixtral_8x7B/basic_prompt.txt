@@ -1,0 +1,19 @@
+Zusammenfassung der Annotationsrichtlinien für Sexismus/Frauenfeindlichkeit von GERMS-AT:
+
+Motivation: Annotieren von Forum-Kommentaren auf Sexismus gegen Frauen, um Classifier zu trainieren, die moderatorisches Handeln bei sexistischen Inhalten ermöglichen. Ziel ist es, junge lesende Frauen als Posterinnen zu gewinnen, die derzeit aufgrund von Sexismus in Foren abgeschreckt werden.
+Vorgehensweise:
+-	Jeder Annotator erhält eine Excel-Tabelle mit Postings zur Annotation.
+-	Es wird ein Label-Wert von 0-4 vergeben, je nachdem wie unwohl man sich beim Lesen des Postings fühlt (0 = nicht sexistisch, 1 = gering sexistisch, 2 = sexistisch, 3 = stark sexistisch, 4 = extrem sexistisch).
+-	Bei Unsicherheit über den Kontext sollte man davon ausgehen, dass das Posting sexistisch ist.
+Kriterien für Sexismus:
+-	Rollen-Stereotype: Verallgemeinerungen über Rollen, die für Frauen besser geeignet sind.
+-	Attributs-Stereotype: Verknüpfung von Frauen mit bestimmten Eigenschaften oder Vorlieben.
+-	Reduktion auf das Äußere: Kommentare, die das Aussehen betonen oder sexualisieren.
+-	Sexualisierte Sprache oder Herabwürdigung von Frauen.
+-	Weiblich konnotierte Beschimpfungen.
+-	Herabwürdigung von Frauen, deren Leistung oder Frauenthemen.
+-	Bagatellisierung frauenspezifischer Probleme oder struktureller Ungleichheiten.
+-	Sexuelle Gewalt oder Belästigung herunterspielen.
+-	Whataboutism oder Abtun von Sexismus gegen Frauen.
+
+Die vollständigen Richtlinien finden Sie im GERMS-AT-Dokument.
