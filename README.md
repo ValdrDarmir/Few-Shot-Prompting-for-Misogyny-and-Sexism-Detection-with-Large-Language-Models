@@ -36,7 +36,7 @@ The data records for the GermEval2024 GerMS-Detect competition can be found unde
 - [HuggingFace](https://huggingface.co/datasets/ofai/GerMS-AT)
 - [GitHub](https://ofai.github.io/GermEval2024-GerMS/download.html)
 
-Please **note** that the required Gold LAbel data records must be generated for evaluation. This can be done using the Python programme ```(04_code/helper/merge_labels_for_testset.py)```. The files required for this are also linked above (targets and traindev).
+Please **note** that the required Gold Label data records must be generated for evaluation. This can be done using the Python program ```(04_code/helper/merge_labels_for_testset.py)```. The files required for this are also linked above (targets and traindev).
 
 ## 02 Few-Shot Examples
 This folder contains the Few-Shot Examples for the various runs.
@@ -67,7 +67,7 @@ Experiments carried out with [fireworks](https://fireworks.ai/) and [openai](htt
 - 5-shot GPT-3.5 Turbo
 
 ## 04 Code
-The following folder contains all python files used. The ```data_analysis``` folder contains all the scripts used to analyse and generate graphs and word clouds. The ```helper``` folder contains all scripts that have undertaken smaller tasks in the workflow, such as merging data or deleting empty elements. The ```prediction``` folder contains all scripts that were used to predict the texts.
+The following folder contains all python files used. The ```data_analysis``` folder contains all the scripts used to analyze the data and generate graphs and word clouds. The ```helper``` folder contains all scripts that have undertaken smaller tasks in the workflow, such as merging data or deleting empty elements. The ```prediction``` folder contains all scripts that were used to predict the texts.
 
 **Users who want to use these scripts must enter their own API key for fireworks or openai in ```config.py.```**
 
