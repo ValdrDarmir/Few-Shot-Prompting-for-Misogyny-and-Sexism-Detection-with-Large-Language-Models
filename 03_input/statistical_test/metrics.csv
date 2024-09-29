@@ -1,0 +1,10 @@
+Method,Micro F1-Score,Accuracy,Recall,Precision
+Zero Shot Mixtral 8x7B Instruct,0.475,0.312,0.477,0.474
+10 Shot Mixtral 8x7B Instruct,0.543,0.372,0.542,0.543
+10 Shot Mixtral 8x22B Instruct,0.585,0.414,0.585,0.585
+5 Shot Mixtral 8x7B Instruct*,0.572,0.4,0.57,0.574
+5 Shot + Guidelines Mixtral 8x7B Instruct*,0.536,0.367,0.536,0.537
+5 Shot GPT-4o mini*,0.4,0.25,0.4,0.4
+10 Shot GPT-4o mini*,0.441,0.282,0.441,0.441
+5 Shot + GS GPT-4o mini*,0.368,0.225,0.368,0.368
+5 Shot GPT-3.5 turbo*,0.378,0.233,0.36,0.398
