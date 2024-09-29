@@ -1,5 +1,6 @@
 # ignore vscode
 .vscode
+.vscode/
 .vscode/*
 .vscode/**/*
 # Byte-compiled / optimized / DLL files
