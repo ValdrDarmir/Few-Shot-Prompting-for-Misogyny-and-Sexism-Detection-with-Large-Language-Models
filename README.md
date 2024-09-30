@@ -11,7 +11,7 @@ The results show that our model delivers good results even without fine-tuning o
 
 **Please note**
 - *This work contains texts that are sexist and misogynistic. Such texts are unavoidable due to the nature of this work.*
-- Corpus available at [GermEval Korpus](https://ofai.github.io/GermEval2024-GerMS/download.html)
+- Corpus available at [GermEval Corpus](https://ofai.github.io/GermEval2024-GerMS/download.html)
 - GermEval2024 GerMS-Detect: [Competition](https://ofai.github.io/GermEval2024-GerMS/)
 
 ## Taskdescription
