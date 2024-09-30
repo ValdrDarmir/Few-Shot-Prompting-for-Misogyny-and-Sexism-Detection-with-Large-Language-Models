@@ -14,7 +14,7 @@ The results show that our model delivers good results even without fine-tuning o
 - Corpus available at [GermEval Corpus](https://ofai.github.io/GermEval2024-GerMS/download.html)
 - GermEval2024 GerMS-Detect: [Competition](https://ofai.github.io/GermEval2024-GerMS/)
 
-## Taskdescription
+## Task Description
 *This shared task is about the detection of sexism/misogyny in comments posted in (mostly) German language to the comment section of an Austrian online newspaper.* [[2]](#source)
 
 ### Subtask 1:
