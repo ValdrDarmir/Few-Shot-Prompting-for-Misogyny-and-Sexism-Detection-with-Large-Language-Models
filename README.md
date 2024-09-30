@@ -46,7 +46,8 @@ These examples were randomly selected from the Competition Phase Trainset (only 
 ## 03 Input 
 
 This folder contains the prompts and output files used for all tests.
-For copyright reasons, the ```result.jsonl``` files are empty, as they contain the texts to be predicted in addition to the ID.
+For copyright reasons, the ```result.jsonl``` files are empty, as they contain the texts to be predicted in addition to the ID
+(The files with the forecasts can be forwarded to me on request)
 An example output in such a ```result.jsonl``` file would be:
 
 ```
@@ -62,12 +63,12 @@ Experiments carried out with [fireworks](https://fireworks.ai/) and [openai](htt
 
 
 - 5-shot GPT-4o mini
-- 10-shot GPT-4o mini
 - 5-shot +summary guidelines GPT-4o mini
 - 5-shot GPT-3.5 Turbo
+- 10-shot GPT-4o mini
 
 ## 04 Code
-The following folder contains all python files used. The ```data_analysis``` folder contains all the scripts used to analyze the data and generate graphs and word clouds. The ```helper``` folder contains all scripts that have undertaken smaller tasks in the workflow, such as merging data or deleting empty elements. The ```prediction``` folder contains all scripts that were used to predict the texts.
+The following folder contains all python files used. The ```data_analysis``` folder contains all the scripts used to analyze the data and generate graphs and word clouds. This folder also contains the script ```statistical_tests``` for the significance test.  The ```helper``` folder contains all scripts that have undertaken smaller tasks in the workflow, such as merging data or deleting empty elements. The ```prediction``` folder contains all scripts that were used to predict the texts.
 
 **Users who want to use these scripts must enter their own API key for fireworks or openai in ```config.py.```**
 
